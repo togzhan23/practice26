@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Krauzer CRM</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="nav-left">
+    <a href="#" class="nav-link active" data-page="home">Главная</a>
+    <a href="#" class="nav-link" data-page="services">Услуги</a>
+    <a href="#" class="nav-link" data-page="projects">Проекты</a>
+    <a href="#" class="nav-link" data-page="orders">Заказы</a>
+  </div>
+
+  <div class="nav-right">
+    <div class="auth-buttons">
+      <button class="login-btn">Вход</button>
+      <button class="register-btn">Регистрация</button>
+    </div>
+    <span class="brand">Krauzer</span>
+  </div>
+</header>
+
+<main>
+
+
+<section id="home" class="page active">
+  <div class="hero">
+    <img src="htmlpics/stove.jpg" alt="Газовая система">
+    <div class="hero-text">
+      <h1>Краузер</h1>
+      <p>Дизайн • Установка • Обслуживание</p>
+    </div>
+  </div>
+
+  <div class="info-cards">
+    <div class="info-card">
+      <img src="htmlpics/stove2.jpg">
+      <h3>Газовая установка</h3>
+      <p>Полный цикл монтажа газовой системы</p>
+    </div>
+    <div class="info-card">
+      <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e">
+      <h3>Проектирование</h3>
+      <p>Техническая документация и планирование</p>
+    </div>
+    <div class="info-card">
+      <img src="htmlpics/installgas.jpeg" >
+      <h3>Обслуживание</h3>
+      <p>Проверка и сервисное обслуживание</p>
+    </div>
+  </div>
+
+<div class="about-section">
+  <h2>О компании</h2>
+  <p>
+    Компания «Краузер» специализируется на проектировании, установке и обслуживании
+    газовых систем для жилых и промышленных объектов.
+  </p>
+  <p>
+    Мы внедряем современные цифровые решения для автоматизации процессов,
+    повышения прозрачности работы и улучшения качества обслуживания клиентов.
+  </p>
+</div>
+
+<div class="advantages">
+  <h2>Почему выбирают нас</h2>
+  <div class="adv-grid">
+    <div class="adv-card">
+      <h3>Опыт</h3>
+      <p>Реальные проекты и практический опыт в газификации</p>
+    </div>
+    <div class="adv-card">
+      <h3>Безопасность</h3>
+      <p>Соответствие всем техническим и нормативным требованиям</p>
+    </div>
+    <div class="adv-card">
+      <h3>Автоматизация</h3>
+      <p>CRM система для прозрачного управления заявками</p>
+    </div>
+    <div class="adv-card">
+      <h3>Поддержка</h3>
+      <p>Полное сопровождение клиента на всех этапах</p>
+    </div>
+  </div>
+</div>
+
+<div class="workflow">
+  <h2>Как мы работаем</h2>
+  <div class="steps">
+    <div class="step">1. Консультация</div>
+    <div class="step">2. Анализ объекта</div>
+    <div class="step">3. Проектирование</div>
+    <div class="step">4. Монтаж</div>
+    <div class="step">5. Тестирование</div>
+    <div class="step">6. Обслуживание</div>
+  </div>
+</div>
+
+<div class="stats">
+  <div class="stat">
+    <h3>150+</h3>
+    <p>Проектов</p>
+  </div>
+  <div class="stat">
+    <h3>100%</h3>
+    <p>Соответствие стандартам</p>
+  </div>
+  <div class="stat">
+    <h3>24/7</h3>
+    <p>Поддержка</p>
+  </div>
+</div>
+
+<div class="cta">
+  <h2>Оставьте заявку</h2>
+  <p>Получите консультацию и расчет стоимости проекта</p>
+  <button class="cta-btn">Оставить заявку</button>
+</div>
+</section>
+
+<section id="services" class="page">
+  <h2>Наши услуги</h2>
+  <div class="product-list">
+    <div class="product-card">
+      <h3>Газификация</h3>
+      <p>Подключение зданий к газовым сетям</p>
+    </div>
+    <div class="product-card">
+      <h3>Монтаж трубопроводов</h3>
+      <p>Безопасная и сертифицированная установка</p>
+    </div>
+    <div class="product-card">
+      <h3>Технический осмотр</h3>
+      <p>Регулярная проверка системы</p>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="page">
+  <h2>Проекты</h2>
+  <div class="supply-info">
+    <p><strong>Проект №1:</strong> Газовая система для жилого дома</p>
+    <p class="status done">Статус: Завершён</p>
+  </div>
+  <div class="supply-info">
+    <p><strong>Проект №2:</strong> Промышленная установка</p>
+    <p class="status progress">Статус: В процессе</p>
+  </div>
+</section>
+
+<section id="orders" class="page">
+  <h2>Заявки клиентов</h2>
+  <div class="order-table">
+    <table>
+      <tr>
+        <th>ID</th>
+        <th>Клиент</th>
+        <th>Услуга</th>
+        <th>Статус</th>
+      </tr>
+      <tr>
+        <td>#1001</td>
+        <td>Клиент A</td>
+        <td>Установка</td>
+        <td>В обработке</td>
+      </tr>
+      <tr>
+        <td>#1002</td>
+        <td>Клиент B</td>
+        <td>Обслуживание</td>
+        <td>Завершено</td>
+      </tr>
+    </table>
+  </div>
+</section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
