@@ -38,3 +38,18 @@ The system provides a centralized platform for storing client data, tracking app
 ---
 
 ## Project Structure
+
+- `/backend` — Server-side logic (Node.js, Express)  
+- `/routes` — API routes  
+- `/controllers` — Request handling logic  
+- `/models` — Database models  
+- `/middleware` — Authentication and access control  
+- `/frontend` — Client-side interface
+--- 
+
+## Future Improvements
+
+- Integration of analytics dashboard  
+- Email/SMS notification system  
+- Cloud deployment (AWS, GCP, Azure)  
+- Performance optimization and scaling  
